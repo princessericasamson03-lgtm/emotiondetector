@@ -1,0 +1,5 @@
+{
+  "name": "EmoSense AI",
+  "description": "App per il riconoscimento delle emozioni in tempo reale e analisi del benessere.",
+  "requestFramePermissions": ["camera"]
+}

@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-primary: #6366f1;
+  --color-secondary: #ec4899;
+  --color-accent: #8b5cf6;
+  
+  --color-pastel-blue: #e0f2fe;
+  --color-pastel-pink: #fce7f3;
+  --color-pastel-green: #dcfce7;
+  --color-pastel-purple: #f3e8ff;
+  --color-pastel-yellow: #fef9c3;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+}
+
+.glass {
+  @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-xl;
+}
+
+.emotion-card {
+  @apply transition-all duration-300 hover:scale-105 hover:shadow-lg rounded-2xl p-4;
+}
